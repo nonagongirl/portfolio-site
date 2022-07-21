@@ -1,0 +1,101 @@
+:root {
+  --title-color: #428486;
+  --para-color: #6eacb7;
+  --link-color: #a5cbc6;
+  --backgrounds: #faf4f0;
+  --box-shadow: 0 5px 10px grey;
+}
+
+body {
+  margin: 15px auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #cc8084;
+  margin: 20px;
+}
+h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  color: #cc8084;
+}
+
+p {
+  color: var(--para-color);
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  box-shadow: var(--box-shadow);
+  padding: 5px;
+}
+.navbarColors {
+  background-color: #428486;
+  color: var(--link-color);
+}
+
+.homepageButtons {
+  padding: 20px;
+  background-color: var(--title-color);
+  text-align: center;
+  border: 2px;
+  border-color: orange;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+}
+
+.links {
+  color: var(--link-color);
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+a:visited {
+  color: var(--link-color);
+}
+
+a:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.intro {
+  text-align: center;
+}
+
+.takeHome {
+  text-align: center;
+  font-size: 8px;
+  opacity: 75%;
+}
+
+.about-text {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.about-paras {
+  padding: 10px;
+  color: var(--para-color);
+  background-color: var(--backgrounds);
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+  display: block;
+}
+
+.contactLinks {
+  font-size: 20px;
+}
