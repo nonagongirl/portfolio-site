@@ -38,6 +38,11 @@ img {
   box-shadow: var(--box-shadow);
   padding: 5px;
 }
+
+.instapic {
+  display: inline;
+  padding: 0px;
+}
 .navbarColors {
   background-color: #428486;
   color: var(--link-color);
@@ -54,13 +59,7 @@ img {
   margin: 20px;
 }
 
-.links {
-  color: var(--link-color);
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-
+a,
 a:visited {
   color: var(--link-color);
 }
@@ -68,6 +67,12 @@ a:visited {
 a:hover {
   cursor: pointer;
   color: grey;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
 .intro {
@@ -98,4 +103,12 @@ a:hover {
 
 .contactLinks {
   font-size: 20px;
+}
+
+.sign-off {
+  opacity: 50%;
+  font-size: 12px;
+  margin: 0px auto;
+  max-width: 300px;
+  color: var(--title-color);
 }
