@@ -106,9 +106,9 @@ a:hover {
 }
 
 .sign-off {
+  margin: 30px;
   opacity: 50%;
   font-size: 12px;
-  margin: 0px auto;
   max-width: 300px;
   color: var(--title-color);
 }
