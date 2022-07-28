@@ -10,19 +10,29 @@ body {
   margin: 15px auto;
 }
 
+/* font-family: "Exo 2", sans-serif;
+font-family: "Pacifico", cursive; */
+
 h1,
 h2 {
   text-align: center;
   color: #cc8084;
   margin: 20px;
+  font-family: "Pacifico", cursive;
 }
 h1 {
+  font-family: "Pacifico", cursive;
   font-size: 60px;
   margin-top: 20px;
   color: #cc8084;
+  text-align: center;
+}
+h2 {
+  font-family: "Exo 2", sans-serif;
 }
 
 p {
+  font-family: "Exo 2", sans-serif;
   color: var(--para-color);
   text-align: left;
 }
