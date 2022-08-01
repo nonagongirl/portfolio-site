@@ -9,7 +9,7 @@
 .hero {
   padding: 90px 20px;
   background-image: url("https://johnlinkmovies.files.wordpress.com/2013/05/ghostbusters-movie-image-black-white-01.jpg");
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -160,5 +160,9 @@ a:hover {
   .homepageButtons {
     padding: 15px;
     margin: 10px;
+  }
+
+  .hero {
+    padding: 30px 5px;
   }
 }
