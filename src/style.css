@@ -6,8 +6,19 @@
   --box-shadow: 0 5px 10px grey;
 }
 
+.hero {
+  padding: 90px 20px;
+  background-image: url("https://johnlinkmovies.files.wordpress.com/2013/05/ghostbusters-movie-image-black-white-01.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 1;
+}
+
 body {
   margin: 15px auto;
+  opacity: 1;
 }
 
 /* font-family: "Exo 2", sans-serif;
