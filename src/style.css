@@ -37,6 +37,11 @@ h2,
 h3 {
   font-family: "Exo 2", sans-serif;
 }
+h4 {
+  font-family: "Exo 2", sans-serif;
+  color: #cc8084;
+  font-size: 40px;
+}
 
 p {
   font-family: "Exo 2", sans-serif;
@@ -59,6 +64,9 @@ img {
 .instapic {
   display: inline;
   padding: 0px;
+}
+.navbar {
+  font-family: "Exo 2", sans-serif;
 }
 .navbarColors {
   background-color: #428486;
@@ -90,6 +98,7 @@ a:hover {
   display: flex;
   justify-content: center;
   margin: 20px;
+  font-family: "Exo 2", sans-serif;
 }
 
 .intro {
@@ -110,7 +119,7 @@ a:hover {
 .about-paras {
   padding: 10px;
   color: var(--para-color);
-  background-color: var(--backgrounds);
+  background: var(--backgrounds);
   border-radius: 20px;
   text-align: center;
   margin: 10px;
@@ -119,6 +128,33 @@ a:hover {
 
 .contactLinks {
   font-size: 20px;
+}
+footer {
+  font-family: "Exo 2", sans-serif;
+  color: var(--para-color);
+  text-align: center;
+  font-size: 20px;
+}
+
+footer .contact-box {
+  background: #fcf0f0;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 0 50px;
+  border-radius: 10px;
+}
+
+footer .footerIcons {
+  margin: 0 20px;
+  padding: 8px 4px;
+  border-radius: 100%;
+  color: var(--title-color);
+}
+footer .footerIcons:hover {
+  background: var(--title-color);
+  transition: all 150ms ease;
+  color: white;
 }
 
 .sign-off {
