@@ -36,11 +36,7 @@ h1 {
 h2,
 h3 {
   font-family: "Exo 2", sans-serif;
-}
-h4 {
-  font-family: "Exo 2", sans-serif;
   color: #cc8084;
-  font-size: 40px;
 }
 
 p {
@@ -76,14 +72,18 @@ img {
 }
 
 .homepageButtons {
+  font-family: "Exo 2", sans-serif;
   padding: 20px;
   background-color: var(--title-color);
   text-align: center;
   border: 2px;
-  border-color: orange;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   margin: 20px;
+}
+
+.workButton {
+  width: 50%;
 }
 
 a,
