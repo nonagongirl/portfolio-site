@@ -14,6 +14,7 @@
 body {
   margin: 0 auto;
   opacity: 1;
+  background-color: white;
 }
 
 /* font-family: "Exo 2", sans-serif;
@@ -59,10 +60,6 @@ img {
   padding: 0px;
 }
 
-.instapic {
-  display: inline;
-  padding: 0px;
-}
 .navbar {
   font-family: "Exo 2", sans-serif;
 }
@@ -84,6 +81,7 @@ img {
 
 .workButton {
   width: 50%;
+  padding: 10px;
 }
 
 a,
@@ -115,7 +113,7 @@ a:hover {
 .about-text {
   display: flex;
   justify-content: space-around;
-  margin: 10px;
+  margin: 0 auto;
 }
 
 .about-paras {
@@ -126,6 +124,15 @@ a:hover {
   text-align: center;
   margin: 10px;
   display: block;
+}
+
+.aboutPic {
+  display: flex;
+  box-shadow: var(--box-shadow);
+  padding: 0px;
+  margin: auto;
+  max-width: 350px;
+  max-height: 350px;
 }
 
 .contactLinks {
