@@ -139,7 +139,9 @@ a:hover {
   max-width: 350px;
   max-height: 350px;
 }
-
+.footerLinks {
+  margin-top: 50px;
+}
 footer {
   font-family: "Exo 2", sans-serif;
   color: var(--para-color);
