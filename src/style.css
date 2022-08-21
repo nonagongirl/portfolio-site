@@ -1,15 +1,15 @@
 :root {
+  --hero-background-color: #19535e;
   --background-color: #428486;
   --para-color: #6eacb7;
   --link-color: #a5cbc6;
-
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   --title-color: #cc8084;
 }
 
 .hero {
-  padding: 90px 20px;
-  background-color: #19535e;
+  padding: 80px 20px;
+  background-color: var(--hero-background-color);
 }
 
 body {
@@ -53,12 +53,17 @@ ul {
   text-align: center;
   font-family: "Exo 2", sans-serif;
   color: var(--para-color);
+  line-height: 1.5;
 }
 
 img {
   display: block;
   box-shadow: var(--box-shadow);
   padding: 0px;
+}
+img:hover {
+  transform: scale(0.98);
+  transition: transform 0.2s;
 }
 
 .navbar {
@@ -78,6 +83,7 @@ img {
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   margin: 20px;
+  min-width: 60%;
 }
 
 .workButton {
@@ -86,6 +92,7 @@ img {
   justify-content: center;
   margin: 0 auto;
   margin-top: 30px;
+  width: 50%;
 }
 .workButton a:visited {
   width: 50%;
@@ -100,7 +107,7 @@ a:visited {
 
 a:hover {
   cursor: pointer;
-  color: grey;
+  color: black;
 }
 
 .links {
@@ -110,18 +117,17 @@ a:hover {
   font-family: "Exo 2", sans-serif;
 }
 
-.intro {
-  text-align: center;
-}
-
-.takeHome {
-  font-size: 8px;
-  opacity: 75%;
-}
-
 .about-text {
   justify-content: space-around;
   margin: 0 auto;
+}
+.textBold {
+  color: var(--title-color);
+  font-weight: bolder;
+}
+
+.fa-li {
+  position: static;
 }
 
 .aboutPic {
@@ -132,11 +138,6 @@ a:hover {
   margin-right: auto;
   max-width: 350px;
   max-height: 350px;
-}
-
-.contactLinks {
-  color: var(--para-color);
-  font-size: 20px;
 }
 
 footer {
@@ -155,8 +156,10 @@ footer .contact-box {
   padding-left: 50px;
   padding-right: 50px;
   margin: 0 auto;
+  margin-top: 60px;
   border-radius: 10px;
-  max-width: 50%;
+  max-width: 70%;
+  max-width: 680px;
 }
 
 footer .footerIcons {
@@ -231,6 +234,7 @@ footer .footerIcons:hover {
     max-width: 150px;
   }
 
+  li,
   .mobileAlignLeft,
   ul .mobileAlignLeft {
     text-align: left;
@@ -253,6 +257,15 @@ footer .footerIcons:hover {
 
   .homepageButtons {
     padding: 15px;
+  }
+
+  .workButton {
+    display: flex;
+    max-width: 450px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 70%;
   }
 
   .hero {
@@ -278,6 +291,7 @@ footer .footerIcons:hover {
     box-shadow: var(--box-shadow);
     margin: 10px;
     font-size: 20px;
+    max-height: 100px;
   }
 
   footer p {
