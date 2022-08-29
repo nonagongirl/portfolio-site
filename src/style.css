@@ -126,6 +126,9 @@ a:hover {
   font-weight: bolder;
 }
 
+.row {
+  margin: 0px;
+}
 .fa-li {
   position: static;
 }
