@@ -21,13 +21,15 @@ body {
 /* font-family: "Exo 2", sans-serif;
 font-family: "Pacifico", cursive; */
 
-h1,
-h2 {
+.cursiveHeadings {
   text-align: center;
   color: var(--title-color);
-  margin: 20px;
+  font-size: 55px;
   font-family: "Pacifico", cursive;
+  margin-top: 25px;
+  margin-bottom: 5px;
 }
+
 h1 {
   font-family: "Pacifico", cursive;
   font-size: 60px;
@@ -39,6 +41,8 @@ h2,
 h3 {
   font-family: "Exo 2", sans-serif;
   color: var(--title-color);
+  text-align: center;
+  margin: 20px;
 }
 
 p {
@@ -55,6 +59,8 @@ ul {
   color: var(--para-color);
   line-height: 1.5;
 }
+
+.worklists {text-align: left;}
 
 img {
   display: block;
