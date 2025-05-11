@@ -161,6 +161,7 @@ footer h3 {
   font-size: 25px;
   padding-top: 10px;
   padding-right: 5px;
+  margin: 8px
 }
 footer .contact-box {
   padding: 10px;
@@ -192,7 +193,7 @@ footer .footerIcons:hover {
   text-align: center;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
-  margin: 20px;
+  margin: 15px;
 }
 .contactButton a {
   color: white;
